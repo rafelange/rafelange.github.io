@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&fdisplay=swap');
+
+
+/* PREFORMATEO DE ESTILOS */
+* {
+    /* border: 1px dashed magenta; */
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+
+    color: #131313;
+    background:
+        linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+        linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+        linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+        linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+        linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+        linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+
+    font-family: 'Fira Code';
+    font-size: 1em;
+}
+
+h1, h2 {
+    margin: 5px;
+}
+
+p {
+    margin: 10px;
+}
+hr {
+    margin: 10px 0 20px 0;
+}
+
+/* CONTENEDORES */
+.container {
+    width: 80vw;
+    min-height: 100VH;
+    margin: 0 auto;
+    padding: 10px 30px;
+    background: #d1d1d2;
+    border-left: 4px #131313 solid;
+    border-left: 4px #131313 solid;
+}
+
+.avatar {
+    border: 2px #0006 solid;
+    border-radius: 50%;
+    display: block;
+    width: 180px;
+    margin-bottom: -43px;
+}
